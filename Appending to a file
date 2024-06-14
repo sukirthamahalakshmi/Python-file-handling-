@@ -1,0 +1,9 @@
+# Example: Appending to a file
+file_path = 'example.txt'
+
+# Open the file in append mode
+with open(file_path, 'a') as file:
+    # Append some text to the file
+    file.write("Appending a new line.\n")
+
+print(f"Data appended to {file_path}")
