@@ -1,0 +1,8 @@
+
+file_path = 'example.txt
+with open(file_path, 'r') as file:
+    # Read the entire content of the file
+    content = file.read()
+
+# Print the content of the file
+print(content)
